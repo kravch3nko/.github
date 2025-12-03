@@ -1,10 +1,14 @@
 version = 1
+disable_bot_label = "queue:disable"
 
 [merge]
 method = "squash"
 delete_branch_on_merge = true
-optimistic_updates = true
+optimistic_updates = false
 prioritize_ready_to_merge = true
+automerge_label = "queue:merge"
+priority_merge_label = "queue:priority-merge"
+block_on_neutral_required_check_runs = true
 
 [update]
 always = false
