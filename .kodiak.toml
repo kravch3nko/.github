@@ -7,7 +7,7 @@ delete_branch_on_merge = true
 optimistic_updates = false
 prioritize_ready_to_merge = true
 automerge_label = "queue:merge"
-priority_merge_label = "queue:priority-merge"
+priority_merge_label = "queue:urgent"
 block_on_neutral_required_check_runs = true
 
 [update]
